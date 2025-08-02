@@ -1,0 +1,11 @@
+alias edithypr='sudo nvim ~/.config/hypr/hyprland.conf'
+alias editkeybinds='sudo nvim ~/.config/hypr/keybinds.conf'
+alias editlockscreen='sudo nvim ~/.config/hypr/hyprlock.conf'
+alias editwallpaper='sudo nvim ~/.config/hypr/hyprpaper.conf'
+alias editkeyboard='sudo nvim /etc/keyd/default.conf'
+alias findprocess='ps ax | grep'
+alias enableclips='~/scripts/obs/enableclips.sh'
+alias disableclips='~/scripts/obs/disableclips.sh'
+discordify() {
+	ff4d "$@" -s 10 -o "$HOME/Videos/Compressed";
+}

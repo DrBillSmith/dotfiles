@@ -1,127 +1,127 @@
-7zip 24.09-3
-alacritty 0.15.1-1
-amd-ucode 20250708-1
-ani-cli 4.10-1
-ani-skip-git r38.12b4960-1
-base 3-2
-base-devel 1-2
-btop 1.4.4-1
-calf 0.90.8-2
-chafa 1.16.1-1
-cmake 4.0.3-1
-cpio 2.15-3
-discord 1:0.0.103-1
-efibootmgr 18-3
-evtest 1.35-2
-fastfetch 2.48.1-1
-flatpak 1:1.16.1-1
-foot 1.23.1-1
-fuse2 2.9.9-5
-gamemode 1.8.2-1
-git 2.50.1-3
-grub 2:2.12.r292.g73d1c959-1
-gruvbox-dark-gtk 1.0.2-1
-gruvbox-dark-icons-gtk 1.0.0-1
-gruvbox-material-gtk-theme-git r25.bb306ae97-1
-gst-libav 1.26.4-1
-gst-plugins-bad 1.26.4-1
-gst-plugins-good 1.26.4-1
-gst-plugins-ugly 1.26.4-1
-hyprland 0.50.1-1
-hyprlock 0.9.0-1
-hyprpaper 0.7.5-3
-hyprpolkitagent 0.1.2-8
-hyprshot 1.3.0-3
-iw 6.9-1
-joyutils 1.8.1-3
-keyd 2.5.0-1
-kitty 0.42.2-1
-kvantum 1.1.5-1
-kvantum-theme-gruvbox-git r11.29ba1f0-2
-less 1:679-1
-lib32-alsa-plugins 1.2.12-1
-lib32-gamemode 1.8.2-1
-lib32-libpulse 17.0+r43+g3e2bb8a1e-1
-lib32-libva 2.22.0-1
-lib32-libxcrypt-compat 4.4.38-1
-lib32-libxinerama 1.1.5-2
-lib32-libxss 1.2.4-2
-lib32-nss 3.114-1
-lib32-nvidia-utils 575.64.05-1
-lib32-openal 1.24.3-1
-lib32-sqlite 3.50.2-1
-lib32-vulkan-icd-loader 1.4.321.0-1
-libconfig 1.8.1-1
-libva-nvidia-driver 0.0.14-1
-linux 6.15.8.arch1-2
-linux-firmware 20250708-1
-linux-headers 6.15.8.arch1-2
-lobster v4.5.1-1
-lsp-plugins 1.2.22-1
-man-db 2.13.1-1
-mesa-utils 9.0.0-7
-meson 1.8.3-1
-nano 8.5-1
-neovim 0.11.3-1
-networkmanager 1.52.1-1
-nm-connection-editor 1.36.0-1
-noto-fonts 1:2025.07.01-1
-noto-fonts-cjk 20240730-1
-noto-fonts-emoji 1:2.048-1
-ntfs-3g 2022.10.3-2
-nvidia-open 575.64.05-3
-nvidia-settings 575.64.05-1
-nvidia-utils 575.64.05-2
-nwg-look 1.0.6-1
-obs-studio 31.1.1-1
-openrgb 0.9-4
-pacman-contrib 1.12.0-1
-paru 2.1.0-1
-pipewire-alsa 1:1.4.7-1
-pipewire-jack 1:1.4.7-1
-pipewire-pulse 1:1.4.7-1
-python-pip 25.1.1-1
-python-pipx 1.7.1-2
-qpwgraph 0.9.4-1
-qrcodegencpp-cmake 1.8.0-4
-qt5ct 1.9-1
-qt6ct 0.10-4
-rtl88x2bu-dkms-git 5.13.1.r210.77a82db-1
-rust 1:1.88.0-1
-sddm 0.21.0-6
-speedtest-cli 2.1.3-9
-starship 1.23.0-1
-steam-devices-git v1.0.0.61.r46.e2971e4-1
-sudo 1.9.17.p1-1
-swappy 1.5.1-2
-swaync 0.12.1-1
-thunar 4.20.4-1
-ttf-cascadia-code-nerd 3.4.0-1
-ttf-dejavu 2.37+18+g9b5d1b2f-7
-ttf-jetbrains-mono 2.304-2
-ttf-liberation 2.1.5-2
-ttf-nerd-fonts-symbols 3.4.0-1
-ttf-nerd-fonts-symbols-mono 3.4.0-1
-ttf-opensans 3.003-1
-ttf-roboto 3.011-1
-unzip 6.0-23
-usbutils 018-1
-uwsm 0.23.0-1
-vesktop 1.5.8-2
-vivaldi 7.5.3735.58-1
-vulkan-tools 1.4.321.0-1
-waybar 0.13.0-3
-wget 1.25.0-2
-woff2-font-awesome 7.0.0-4
-wofi 1.5-1
-xdelta3 3.1.0-7
-xdg-desktop-portal-gnome 48.0-2
-xdg-desktop-portal-gtk 1.15.3-1
-xdg-desktop-portal-hyprland 1.3.9-11
-xdg-desktop-portal-kde 6.4.3-1
-xone-dkms 0.3.5-1
-xpad 5.8.0-1
-xpadneo-dkms 0.9.7-1
-yay 12.5.0-1
-yay-debug 12.5.0-1
-youtube-music-bin 3.10.0-1
+7zip
+alacritty
+amd-ucode
+ani-cli
+ani-skip-git
+base
+base-devel
+btop
+calf
+chafa
+cmake
+cpio
+discord
+efibootmgr
+evtest
+fastfetch
+flatpak
+foot
+fuse2
+gamemode
+git
+grub
+gruvbox-dark-gtk
+gruvbox-dark-icons-gtk
+gruvbox-material-gtk-theme-git
+gst-libav
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-ugly
+hyprland
+hyprlock
+hyprpaper
+hyprpolkitagent
+hyprshot
+iw
+joyutils
+keyd
+kitty
+kvantum
+kvantum-theme-gruvbox-git
+less
+lib32-alsa-plugins
+lib32-gamemode
+lib32-libpulse
+lib32-libva
+lib32-libxcrypt-compat
+lib32-libxinerama
+lib32-libxss
+lib32-nss
+lib32-nvidia-utils
+lib32-openal
+lib32-sqlite
+lib32-vulkan-icd-loader
+libconfig
+libva-nvidia-driver
+linux
+linux-firmware
+linux-headers
+lobster
+lsp-plugins
+man-db
+mesa-utils
+meson
+nano
+neovim
+networkmanager
+nm-connection-editor
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ntfs-3g
+nvidia-open
+nvidia-settings
+nvidia-utils
+nwg-look
+obs-studio
+openrgb
+pacman-contrib
+paru
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+python-pip
+python-pipx
+qpwgraph
+qrcodegencpp-cmake
+qt5ct
+qt6ct
+rtl88x2bu-dkms-git
+rust
+sddm
+speedtest-cli
+starship
+steam-devices-git
+sudo
+swappy
+swaync
+thunar
+ttf-cascadia-code-nerd
+ttf-dejavu
+ttf-jetbrains-mono
+ttf-liberation
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-mono
+ttf-opensans
+ttf-roboto
+unzip
+usbutils
+uwsm
+vesktop
+vivaldi
+vulkan-tools
+waybar
+wget
+woff2-font-awesome
+wofi
+xdelta3
+xdg-desktop-portal-gnome
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-kde
+xone-dkms
+xpad
+xpadneo-dkms
+yay
+yay-debug
+youtube-music-bin
