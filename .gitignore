@@ -1,0 +1,26 @@
+# Ignore application data and cache directories
+config/discord/
+config/Slippi*/
+config/Steam/
+config/lutris/
+config/*/cache/
+config/*/Cache/
+config/*/logs/
+config/*/tmp/
+
+# Ignore large binary files
+*.AppImage
+*.deb
+*.rpm
+*.dmg
+*.exe
+*.msi
+
+# Ignore sensitive files
+**/secrets.json
+**/passwords.txt
+**/.env
+
+# Ignore logs
+*.log
+logs/

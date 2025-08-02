@@ -1,0 +1,6 @@
+2025/08/01-00:21:37.900 5459e Reusing MANIFEST /home/drbillsmith/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/08/01-00:21:37.905 5459e Recovering log #429
+2025/08/01-00:21:37.905 5459e Reusing old log /home/drbillsmith/.config/vesktop/sessionData/Local Storage/leveldb/000429.log 
+2025/08/01-00:26:51.573 5459f Level-0 table #433: started
+2025/08/01-00:26:51.578 5459f Level-0 table #433: 71961 bytes OK
+2025/08/01-00:26:51.580 5459f Delete type=0 #429

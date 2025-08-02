@@ -1,0 +1,13 @@
+[Unit]
+Description=OBS Replay Buffer Auto-Restart
+After=graphical-session.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/drbillsmith/obs-clipping-env/bin/python /home/drbillsmith/scripts/obs/obs_restart.py
+RestartSec=30
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target

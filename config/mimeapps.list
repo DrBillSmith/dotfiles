@@ -1,0 +1,5 @@
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop
+
+[Added Associations]
+video/x-matroska=mpv.desktop;no.mifi.losslesscut.desktop;userapp-mpv-744LA3.desktop;

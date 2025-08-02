@@ -1,0 +1,64 @@
+{
+	"window-size": {
+		"width": 1900,
+		"height": 1025
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 10,
+		"y": 45
+	},
+	"url": "https://music.youtube.com/watch?v=_YpDYkTuzyc&list=RDAOxC95RnrmnO4mW9tgftYkVA&index=0",
+	"options": {
+		"tray": false,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": false,
+		"hideMenuWarned": false,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": false,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": false,
+		"resumeOnStart": true,
+		"likeButtons": "",
+		"proxy": "",
+		"startingPage": "",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": []
+	},
+	"plugins": {
+		"notifications": {},
+		"video-toggle": {
+			"mode": "custom"
+		},
+		"precise-volume": {
+			"globalShortcuts": {}
+		},
+		"discord": {
+			"playOnYouTubeMusic": true,
+			"listenAlong": true,
+			"enabled": true
+		},
+		"album-color-theme": {
+			"enabled": true
+		},
+		"album-actions": {
+			"enabled": true
+		},
+		"ambient-mode": {
+			"enabled": true
+		},
+		"skip-disliked-songs": {
+			"enabled": false
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.10.0"
+		}
+	}
+}

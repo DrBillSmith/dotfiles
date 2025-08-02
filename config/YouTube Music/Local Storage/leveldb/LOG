@@ -1,0 +1,9 @@
+2025/07/31-21:58:40.821 25763 Reusing MANIFEST /home/drbillsmith/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/07/31-21:58:40.828 25763 Recovering log #4
+2025/07/31-21:58:40.828 25763 Reusing old log /home/drbillsmith/.config/YouTube Music/Local Storage/leveldb/000004.log 
+2025/07/31-22:16:26.823 25764 Level-0 table #8: started
+2025/07/31-22:16:26.827 25764 Level-0 table #8: 12765 bytes OK
+2025/07/31-22:16:26.829 25764 Delete type=0 #4
+2025/07/31-23:43:47.690 25764 Level-0 table #10: started
+2025/07/31-23:43:47.694 25764 Level-0 table #10: 12753 bytes OK
+2025/07/31-23:43:47.696 25764 Delete type=0 #7

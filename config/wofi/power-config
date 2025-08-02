@@ -1,0 +1,12 @@
+width=400
+height=320
+location=center
+show=dmenu
+prompt=Power Options
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitive=true

@@ -1,0 +1,12 @@
+2025/07/30-22:43:28.089 10db Reusing MANIFEST /home/drbillsmith/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/30-22:43:28.089 10db Recovering log #18
+2025/07/30-22:43:28.094 10db Reusing old log /home/drbillsmith/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000018.log 
+2025/07/30-23:31:10.955 10db Level-0 table #23: started
+2025/07/30-23:31:10.965 10db Level-0 table #23: 1477797 bytes OK
+2025/07/30-23:31:10.968 10db Delete type=0 #18
+2025/07/30-23:43:41.413 10db Compacting 1@1 + 1@2 files
+2025/07/30-23:43:41.421 10db Generated table #24@1: 532 keys, 30404 bytes
+2025/07/30-23:43:41.421 10db Compacted 1@1 + 1@2 files => 30404 bytes
+2025/07/30-23:43:41.423 10db compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/30-23:43:41.423 10db Delete type=2 #20
+2025/07/30-23:43:41.423 10db Delete type=2 #23

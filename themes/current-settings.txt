@@ -1,0 +1,4 @@
+# Current GTK theme settings
+'gruvbox-dark-gtk'
+'gruvbox-dark-icons-gtk'
+'Afterglow-cursors'

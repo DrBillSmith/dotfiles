@@ -1,0 +1,125 @@
+{
+  "layer": "top",
+  "position": "top", 
+  "height": 32,
+  
+  "modules-left":   ["hyprland/workspaces","temperature","hyprland/window","hyprland/icon"],
+  "modules-center": ["clock","custom/playerctl"],
+  "modules-right":  ["custom/pwvucontrol","custom/pipewire", "network", "custom/power"],
+
+  "hyprland/workspaces": {
+        "disable-scroll": true,
+        "sort-by-number": true,
+        "on-click": "activate"
+   },
+
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 50,
+    "tooltip": true,
+    "tooltip-format": "{title}",
+    "separate-outputs": true
+  },
+
+  "hyprland/icon": {
+    "format": "{}",
+    "max-length": 50,
+    "tooltip": true,
+    "tooltip-format": "{icon}",
+    "separate-outputs": true
+  },
+    
+  
+    
+  
+  "clock": {
+		"interval": 1,
+		"format": "{:%I:%M %p  %A %b %d}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"tooltip": true
+    },
+
+  "network": {
+    	"interval": 1,
+        "format-wifi": "󰒢 {essid}",
+        "format-ethernet": "󰈀  {ifname}",
+        "format-linked": "󰒢 {essid} (No IP)",
+        "format-disconnected": "󰒢 Disconnected",
+        "format-alt": "{ifname} ({ipaddr})",
+        //"tooltip": false,
+	// "tooltip-format-wifi": "signal strength: {signalstrength}% | down speed: {bandwidthdownbits}, up speed: {bandwidthupbits}",
+        "on-click-right": "exec nm-connection-editor"
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+         "activated": "󰈈 ",
+      "deactivated": "󰈉 "
+     },
+     "tooltip": false
+  },
+ 
+  "temperature": {
+		"hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
+		"critical-threshold": 85,
+		"interval": 1,
+		"format": "<span font='12' rise='-2500'>󰔏</span> {temperatureC}°C",
+		"tooltip": false
+	},
+
+
+  "custom/power": {
+	"format": "PWR",
+        "tooltip": "Power Options",
+        "on-click": "~/.config/waybar/scripts/power-menu.sh"
+	},
+
+  "custom/pwvucontrol": {
+    "format": "󰕾 {}%",
+    "interval": 1,
+    "exec": "~/.config/waybar/scripts/volume-level.sh",
+    "tooltip": "Volume Control",
+    "on-click": "GTK_THEME=Gruvbox-Dark-GTK flatpak run com.saivert.pwvucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "smooth-scrolling-threshold": 1
+  },
+
+  "custom/pipewire": {
+    "format": "󰍰 {}",
+    "interval": 5,
+    "exec": "~/.config/waybar/scripts/pipewire-connections.sh",
+    "tooltip": "PipeWire Control",
+    "on-click": "helvum",
+    "on-click-right": "qpwgraph"
+  },
+
+  "custom/easyeffects": {
+    "format": "󰔊 {}",
+    "interval": 3,
+    "exec": "~/.config/waybar/scripts/easyeffects-status.sh",
+    "tooltip": "EasyEffects",
+    "on-click": "easyeffects",
+    "on-click-right": "pkill easyeffects"
+  },
+
+  "custom/playerctl": {
+    //"format": "<span font='12' rise='-2500'>{icon}</span> {}",
+    "format": "<span font='10' rise='-1000'>󰎈</span>  {} ",
+    "format-icons": {
+	"Playing": "󰐊",
+        "Paused": "󰏤"
+    },
+    	"escape": true,
+   	"return-type": "json",
+    	"max-length": 40,
+    	"on-click": "playerctl play-pause",
+    	"on-click-right": "playerctl stop",
+        "on-click-middle": "killall spotify",
+    	"smooth-scrolling-threshold": 10,
+    	"on-scroll-up": "playerctl next",
+    	"on-scroll-down": "playerctl previous",
+    	"exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}} - {{artist}}\", \"tooltip\": \"{{status}} : {{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F" 
+    }
+}
